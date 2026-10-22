@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "data": [
+    {
+      "usr_id": 101,
+      "pha_first_name": "Rodgers",
+      "pha_last_name": "Akala",
+      "pha_license_number": "PPB/W/7409",
+      "pha_alt_phone_number": "254722700471",
+      "usr_mobile_number": "254722700471",
+      "pharmacy_rating": 0,
+      "totaluser": 0,
+      "org_organization_name": null
+    },
+    {
+      "usr_id": 102,
+      "pha_first_name": "Pharma",
+      "pha_last_name": "",
+      "pha_license_number": "123",
+      "pha_alt_phone_number": "0111871855",
+      "usr_mobile_number": "254720266088",
+      "pharmacy_rating": 0,
+      "totaluser": 0,
+      "org_organization_name": null
+    },
+    {
+      "usr_id": 103,
+      "pha_first_name": "John",
+      "pha_last_name": "Doe",
+      "pha_license_number": "PPB/W/8500",
+      "pha_alt_phone_number": "254712345678",
+      "usr_mobile_number": "254712345678",
+      "pharmacy_rating": 45,
+      "totaluser": 10,
+      "org_organization_name": "Malibu Pharmacy Limited"
+    },
+    {
+      "usr_id": 104,
+      "pha_first_name": "Sarah",
+      "pha_last_name": "Smith",
+      "pha_license_number": "PPB/W/9600",
+      "pha_alt_phone_number": "254723456789",
+      "usr_mobile_number": "254723456789",
+      "pharmacy_rating": 120,
+      "totaluser": 30,
+      "org_organization_name": ""
+    },
+    {
+      "usr_id": 105,
+      "pha_first_name": "Michael",
+      "pha_last_name": "Johnson",
+      "pha_license_number": "PPB/W/7500",
+      "pha_alt_phone_number": "254734567890",
+      "usr_mobile_number": "254734567890",
+      "pharmacy_rating": 200,
+      "totaluser": 50,
+      "org_organization_name": "Goodlife Pharmacy"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+

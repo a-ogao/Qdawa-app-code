@@ -1,0 +1,86 @@
+name: quikdawa_a3
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.3+7
+
+environment:
+  sdk: ">=3.0.0 <5.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0+4
+  image_cropper: ^7.0.5
+  file_picker: ^10.3.1
+  mime: ^1.0.4
+  permission_handler: ^11.3.0
+  device_calendar: ^4.1.0
+  android_intent_plus: ^4.0.3
+  timezone: ^0.9.4
+  image_picker: ^0.8.7+4
+  image_picker_for_web: ^2.1.9
+  onesignal_flutter: ^5.3.4    # Latest, Dart 3 compatible :contentReference[oaicite:0]{index=0}
+  flutter_localizations:
+    sdk: flutter
+  pdf: ^3.10.4
+  path_provider: ^2.1.2
+  open_filex: ^4.5.0           # Up-to-date & null-safe
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.2.3
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  flutter_switch: ^0.3.2
+  timelines_plus: ^1.0.3
+  flutter_rating_bar: ^4.0.1
+  smooth_page_indicator: ^1.2.0+3
+  pin_code_fields: ^8.0.1
+  responsive_grid_list: ^1.4.0
+  connectivity_plus: ^6.1.5
+  password_strength: ^0.2.0
+  geolocator: ^13.0.2
+  google_fonts: ^6.1.0
+  device_info_plus: ^10.1.0
+  in_app_update: ^4.2.5
+  package_info_plus: ^8.1.2
+  local_auth: ^3.0.1
+
+# Use only if you still need to override a version for web
+dependency_overrides:
+  web: ^1.0.0
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/img_rectangle_159.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: Public Sans
+      fonts:
+        - asset: assets/fonts/PublicSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/PublicSansSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PublicSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PublicSansMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PublicSansExtraBold.ttf
+          weight: 800

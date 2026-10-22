@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "quikdawa-api-collection",
+		"name": "QuikDawa API Collection",
+		"description": "Complete API collection for QuikDawa application testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Dashboard Counters",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "usr_id",
+							"value": "1",
+							"description": "User ID for testing"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://quikdawa.com/QdawaAPIs/public/index.php/usercounters",
+					"protocol": "https",
+					"host": [
+						"quikdawa",
+						"com"
+					],
+					"path": [
+						"QdawaAPIs",
+						"public",
+						"index.php",
+						"usercounters"
+					]
+				},
+				"description": "Get user dashboard counters (quotations, orders, payments, etc.)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Banner",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://quikdawa.com/QdawaAPIs/public/index.php/getBanner",
+					"protocol": "https",
+					"host": [
+						"quikdawa",
+						"com"
+					],
+					"path": [
+						"QdawaAPIs",
+						"public",
+						"index.php",
+						"getBanner"
+					]
+				},
+				"description": "Get dashboard banner image and advertisement data"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Last 3 Orders",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "usr_id",
+							"value": "1",
+							"description": "User ID for testing"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://quikdawa.com/QdawaAPIs/public/index.php/getLastThreeOrders",
+					"protocol": "https",
+					"host": [
+						"quikdawa",
+						"com"
+					],
+					"path": [
+						"QdawaAPIs",
+						"public",
+						"index.php",
+						"getLastThreeOrders"
+					]
+				},
+				"description": "Get last 3 orders for the user"
+			},
+			"response": []
+		},
+		{
+			"name": "User Counters (Alternative)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "usr_id",
+							"value": "1"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://quikdawa.com/QdawaAPIs/public/index.php/usercounters",
+					"protocol": "https",
+					"host": [
+						"quikdawa",
+						"com"
+					],
+					"path": [
+						"QdawaAPIs",
+						"public",
+						"index.php",
+						"usercounters"
+					]
+				},
+				"description": "Alternative test for user counters with user ID 1"
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://quikdawa.com/QdawaAPIs/public/index.php",
+			"type": "string"
+		},
+		{
+			"key": "user_id",
+			"value": "1",
+			"type": "string"
+		}
+	]
+}
+
